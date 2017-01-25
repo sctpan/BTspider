@@ -63,7 +63,7 @@ def menu2(num,key,href):
             f.close()
             setText(torrent)
             print("现在请打开迅雷或qq旋风，若无反应按新建下载")
-            print('5秒后自动返回菜单')
+            print('5秒后自动退出')
             time.sleep(5)
             os._exit(1)
         else:
